@@ -1,3 +1,143 @@
 body {
-	background: blue;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 780px;
+	font-family: helvetica, arial, sans-serif;
+	padding-left:10px;
+	padding-right:10px;
+	background-color: #f1f1f1;
+}
+
+footer a:link {
+	color: white;
+	text-decoration: underline;
+}
+footer a:active {
+	color: #0000ff;
+	text-decoration: underline;
+}
+footer a:visited {
+	color: grey;
+	text-decoration: underline;
+}
+footer a:hover {
+	color: grey;
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #666;
+	color: #d0d0d0;
+	font-style: italic;
+	font-size: .75em;
+	text-align: center;
+	padding: 7px 0px;
+}
+
+main{
+	background-color: white;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header h1 {
+	padding-left: 15px;
+}
+
+.article-content {
+	padding: 0px 15px;
+}
+
+.featured-button {
+	display: block;
+	max-width: 300px;
+	padding: 10px 7px;
+	background-color: red;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	text-shadow: rgba(128, 128, 128, 0.39) 3px 3px;
+}
+.featured-button:hover,
+.featured-button:focus {
+	background-color: #da0303;
+}
+
+.featured-button strong {
+	font-size: 3.2em;
+	margin-bottom: 5px;
+	line-height: 1.1;
+	display: inline-block;
+}
+
+.table {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-x: scroll;
+}
+
+.centered-cells {
+	text-align: center;
+}
+
+#formation {
+	background-image: url(images/texture.png);
+	color: white;
+}
+
+.lightbox {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 1px;
+}
+
+@media (max-width: 700px) {
+	h1 {
+		font-size: 20px;
+	}
+}
+
+.form-elements {
+	padding: 3px;
+}
+
+form * {
+	margin-bottom: 3px;
+}
+
+.label-1 {
+	display: inline-block;
+	min-width: 50px;
+}
+
+.flowy {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flowy > * {
+	margin-bottom: 10px;
 }
